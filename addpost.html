@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Add New Post</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+  <nav class="navbar">
+    <h2 class="logo">MyBlog</h2>
+
+    <!-- Hamburger Menu Icon (for mobile) -->
+    <div class="menu-toggle">
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+
+    <!-- Navigation Links -->
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="blog.html">Blog</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+  <section class="add-post">
+    <h2>Create a New Blog Post</h2>
+    <form>
+      <input type="text" placeholder="Post Title" required>
+      <input type="file" id="upload" name="image" accept="image/*" required>
+      <textarea placeholder="Write your content here..." required></textarea>
+      <button type="submit" class="btn">Publish</button>
+    </form>
+  </section>
+
+
+</body>
+</html>
